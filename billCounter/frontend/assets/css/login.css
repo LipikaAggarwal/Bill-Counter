@@ -1,0 +1,54 @@
+.b.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+.btn-floating{
+    box-shadow: none;
+
+}
+.btn-floating :hover{
+    /* padding: 2px; */
+    transform: scale(1);
+   transition: all 0.1s ease-in-out 0.1s;
+}
+.bi hover{
+    transform: scale(1);
+   transition: all 0.1s ease-in-out 0.1s;
+}
+.btn{
+    background-color: rgba(rgb(198, 41, 219));
+    color: rgba(rgb(198, 41, 219));
+}
+/* body {
+    background: rgba(226, 223, 223, 0.5);
+} */
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+/* footer{
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+} */
+section{
+    padding-top: 30px;
+}
+.small{
+    padding-bottom: 30px;
+}
